@@ -1,0 +1,81 @@
+
+
+header{
+  width: 100vw;
+  background-size: cover;
+  height: 500px;
+  padding-top: 66.6%;
+  box-sizing: border-box;
+  background-image: url(../img/happybirthday.jpg);
+  position: relative;
+}
+
+
+
+.twoshot {
+  position: absolute;
+  left: 70%;
+  top: 8%;
+  width: 25%;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.cursive{
+  font-family: 'Cedarville Cursive', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.present{
+  position: relative;
+}
+
+.present a {
+  position: absolute;
+  left: 75%;
+  font-weight: bold;/*太字に*/
+  text-decoration: none;/*下線消す*/
+  background: #8A0829;/*背景を水色に*/
+  color:white;/*文字を白に*/
+  padding:5px 10px;/*内側の余白*/
+  border-radius: 20px;/*角を丸くする*/
+  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+}
+
+.year{
+  margin: 0 auto;
+}
+
+.frame {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+
+.frame p{
+  position: absolute;
+  top: 70%;
+  left: 90%;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.photos{
+  width: 70%;
+}
+
+h2{
+  font-family: 'Cedarville Cursive', cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+.subtitle{
+  font-family: 'Cedarville Cursive', cursive;
+  text-align: center;
+  font-size: 30px;
+}
